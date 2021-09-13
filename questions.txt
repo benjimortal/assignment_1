@@ -1,0 +1,33 @@
+1.	Variabler är till för att spara data under en programkörning, så att man kan använda det flera gånger.
+    För att tilldela ett värde till en variabel använder man likhetstecknet
+    ex: x = "Python is awesome"
+    'x' är en variable
+
+2.	En funktion är ett kodblock som man lagrar för att kunna återanvända vid ett senare tillfälle.
+    De kan innehålla variabler, operander, loopar, i stort sett allt!
+    ex:
+    def hello():
+        print('hello world')
+
+
+3.  ex :
+    def add_num(a, b):
+    return a * b
+
+x = int(input('Please enter the first positive digit:\n'))
+y = int(input('Please enter the second positive digit:\n'))
+print(add_num(x,y))
+
+    Det här är ett program som tar och multiplicerar två tal och vi kan även använda den funktionen i vårt projekt om det behövs.
+    Ett program är något som vi skapar för att göra något.
+
+
+4.  Att man vet vilka funktioner man kan använda sig av och hur kan inplemnetrea funktioner,
+    tx man behöver inte göra en funktion om den används bara en gång under hela projektet, utan man kan göra tex en namnlös funktion en lambda
+    istället för en for loop man kan göra en list_comprehensions, man kan använda sig av generator och decorators om det behövs
+    och detta beror på programmet som ska göras och behovet om det finns.
+
+
+5.  Denna fråga har nästan samma svar, alltså att man ska ha den kunskapen för att avgöra att vilka funktioner man kan använda sig av för sitt program,
+    och göra att programmet blir snabbare med mindre kode, så blir det effektiv programmering.
+

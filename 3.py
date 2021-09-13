@@ -1,4 +1,3 @@
-#3.	Write a Python function of to recursively calculate the sum
 Data = [1, 2, [3,4], [5,6]]
 
 def fact_list_sum(data):

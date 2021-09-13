@@ -1,5 +1,3 @@
-# 2.	Write a Python function to convert an Integer to a string in any base
-
 def toStr(n,base):
    convert_to_Str =  "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"
    if n < base:
